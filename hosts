@@ -1,0 +1,2 @@
+[argocd]
+172.31.89.156 ansible_ssh_user=ansible

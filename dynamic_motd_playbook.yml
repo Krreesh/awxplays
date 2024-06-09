@@ -1,0 +1,6 @@
+---
+- hosts: argocd
+  name: Configure Dynamic motd
+  become: yes
+  roles:
+  - motd

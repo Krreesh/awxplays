@@ -1,0 +1,7 @@
+{{ motd_message }}
+System Information:
+OS: {{ ansible_distribution }} {{ ansible_distribution_version }}
+Hostname: {{ ansible_hostname }}
+IP_Address: {{ansible_default_ipv4.address}}
+OS_Family: {{ ansible_os_family }} 
+{{ custom_message | default('') }}
