@@ -1,5 +1,5 @@
 ---
-- hosts: argocd
+- hosts: 172.31.89.156
   name: Configure Dynamic motd
   become: yes
   roles:
